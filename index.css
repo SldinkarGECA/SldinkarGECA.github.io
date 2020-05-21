@@ -83,11 +83,15 @@ i {
 }
 
 .projects .col .card {
-    height: 350px;
+    height: 370px;
 }
 
 .projects .col .card .card-image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 10px;
     height: 250px;
+    border-radius: 20px;
 }
 
 .footer .page-footer {
@@ -106,6 +110,29 @@ main {
     flex: 1 0 auto;
 }
 
-i{
+i {
     color: #EA7773;
+}
+
+
+.card {
+    position: relative;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+
+.card-content p a {
+
+    color: #EA7773;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .bg{
+        background-image: url('images/bgmob.jpg');
+         background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100vh;
+    }
 }
