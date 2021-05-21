@@ -1,4 +1,5 @@
 # SldinkarGECA.github.io
 My Portfolio Repository
 
-visit www.sldinkar.tech
+visit www.sldinkar.me
+
