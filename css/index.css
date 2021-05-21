@@ -1,11 +1,17 @@
+.body {
+    /*background-image: url('images/bg.jpg');*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
 nav ul a {
-    color: #3C40C6;
     color: #E8290B;
     font-weight: 900;
 }
 
 nav .brand-logo {
-    color: #3C40C6;
     color: #FFF222;
 }
 
@@ -17,7 +23,6 @@ a {
 
 h5 {
     font-size: 16px;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #FFF222;
 }
 
@@ -61,7 +66,6 @@ h3 {
 }
 
 .nav-wrapper {
-    background-color: #25CCF7;
     background-color: #0A3D62;
 }
 
@@ -71,27 +75,27 @@ i {
 }
 
 
-
 .card-panel {
     height: 200px;
     width: 200px;
     background-color: #2475B0;
 }
 
-.sidenav li>a {
+.sidenav li > a {
     color: #2B2B52;
 }
 
 .projects .col .card {
-    height: 350px;
+    height: 370px;
 }
 
 .projects .col .card .card-image {
+    margin: 10px;
     height: 250px;
+    border-radius: 20px;
 }
 
 .footer .page-footer {
-    background-color: #25CCF7;
     background-color: #0A3D62;
 }
 
@@ -106,6 +110,28 @@ main {
     flex: 1 0 auto;
 }
 
-i{
+i {
     color: #EA7773;
+}
+
+
+.card {
+    position: relative;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+
+.card-content p a {
+    color: #EA7773;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .bg {
+        background-image: url('images/bgmob.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100vh;
+    }
 }

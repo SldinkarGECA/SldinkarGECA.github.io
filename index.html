@@ -1,301 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hello, Welcome to my portfolio website!!"/>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Sandesh Dinkar</title>
-    <link rel="icon" href="images/pic.jpg" type="image/jpg" style="border-radius: 50%;">
+    <link
+            href="images/icon.png"
+            rel="icon"
+            type="image/png">
     <!-- google icon fonts -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+    />
     <!-- materialize cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+            rel="stylesheet"
+    />
     <!-- personalize css -->
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="index.css" rel="stylesheet"/>
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+    />
 
+    <link
+            href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+            rel="stylesheet"
+    />
 </head>
 
-<body style="background-image: url('images/bg.jpg');
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: 100% 100%;">
-    <div class="bg">
-        <section class="fnavbar">
-            <nav class="nav-fixed">
-                <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">sldinkar</a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#skills">My Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#footer">Contact Me</a></li>
-                    </ul>
+<body class="body">
+<div class="bg">
+    <section class="fnavbar">
+        <nav class="nav-fixed">
+            <div class="nav-wrapper">
+                <a class="brand-logo" href="#">sldinkar</a>
+                <a class="sidenav-trigger" data-target="mobile-demo" href="#"
+                ><i class="material-icons">menu</i></a
+                >
+                <ul class="right hide-on-med-and-down" id="nav-mobile">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">My Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#footer">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav center" id="mobile-demo">
+            <br/><br/><br/><br/>
+            <img
+                    src="images/pic.jpg"
+                    style="width: 200px; height: 200px; border-radius: 50%"
+            />
+            <br/><br/><br/><br/>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#footer">Contact Me</a></li>
+        </ul>
+    </section>
+
+    <div class="about center flow-text" id="about">
+        <div class="row">
+            <div class="col s12 l6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/pic.jpg"/>
+                    </div>
                 </div>
-
-            </nav>
-
-            <ul class="sidenav center" id="mobile-demo">
-                <br><br><br><br>
-                <img src="images/pic.jpg" style="width:200px; height: 200px; border-radius: 50%">
-                <br><br><br><br>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">My Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#footer">Contact Me</a></li>
-            </ul>
-        </section>
-
-
-        <div class="about center flow-text" id="about">
-            <div class="row">
-                <div class="col s12">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="images/pic.jpg">
-                            <!-- <span class="card-title">Card Title</span> -->
-                        </div>
-                        <div class="card-content">
-                            <h5>Name: Sandesh Dinkar.</h5>
-                            <h5>College: GEC, Aurangabad.</h5>
-                            <h5>Current Year: Second.</h5>
-                            <h5>Branch: IT.</h5>
-                            <h5>Hometown: Shahapur.</h5>
-                            <h5>Current city: Aurangabad.</h5>
-                        </div>
-                        <div class="card-action">
-                            <a href="https://www.linkedin.com/in/sldinkar5657/"><b>Connect Me!</b></a>
-                            <br><br>
-                            <div class="divider"></div>
-                        </div>
-
+            </div>
+            <div class="col s12 l6">
+                <div class="card">
+                    <div class="card-content">
+                        <h5>Name: Sandesh Dinkar.</h5>
+                        <h5>College: GEC, Aurangabad.</h5>
+                        <h5>Current Year: Second.</h5>
+                        <h5>Branch: IT.</h5>
+                        <h5>Hometown: Shahapur.</h5>
+                        <h5>Current city: Aurangabad.</h5>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="Skills center flow-text" id="skills">
-            <div class="section center">
-                <br><br>
-                <h3 class="header">My Skills:</h3>
-
-                <div class="carousel myskills" style="margin-bottom: 35px;">
-                    <a class="carousel-item" href="#HTML!">
-                        <div class="row">
-                            <div class="col s12">
-                                <div class="card-panel">
-                                    <span class="white-text">HTML<br>-<br><strong>60%</strong>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="carousel-item" href="#CSS!">
-                        <div class="row">
-                            <div class="col s12">
-                                <div class="card-panel">
-                                    <span class="white-text">CSS<br>-<br> <strong>40%</strong>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="carousel-item" href="#C!">
-                        <div class="row">
-                            <div class="col s12">
-                                <div class="card-panel">
-                                    <span class="white-text">C<br>-<br> <strong>50%</strong>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="carousel-item" href="#C++!">
-                        <div class="row">
-                            <div class="col s12">
-                                <div class="card-panel ">
-                                    <span class="white-text">C++<br>-<br> <strong>40%</strong>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="carousel-item" href="#Python!">
-                        <div class="row">
-                            <div class="col s12">
-                                <div class="card-panel">
-                                    <span class="white-text">Python<br>-<br> <strong>30%</strong>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="carousel-item" href="#Java!">
-                        <div class="row">
-                            <div class="col s12">
-                                <div class="card-panel">
-                                    <span class="white-text">Java<br>-<br> <strong>20%</strong>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="carousel-item" href="#Bootstrap!">
-                        <div class="row">
-                            <div class="col s12">
-                                <div class="card-panel">
-                                    <span class="white-text">Bootstrap<br>-<br> <strong>20%</strong>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <br><br>
-            <div class="divider"></div>
-        </div>
-
-
-        <div class="projects center" id="projects">
-            <br><br>
-
-            <h3 class="header">My Projects:</h3>
-            <br><br>
-            <div class="row">
-                <div class="col s10 m4 offset-s1">
-                    <div class="card ">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/hostel.PNG" style="height: 250px;">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator white-text text-darken-4">Hostel Allotement System<i
-                                    class="small material-icons right">info</i></span>
-                            <p><a href="https://github.com/SldinkarGECA">Github Link</a></p>
-                        </div>
-                        <div class="card-reveal center">
-                            <span class="card-title grey-text text-darken-4">Hostel Allotement System<i
-                                    class="material-icons right">close</i></span>
-                            <p>Hostel Allotment System website in the ASP.Net using SQL database in Visual Studio 2019
-                                where
-                                students can apply for hostel admission and enrollment will be done on the basis of the
-                                CGPA
-                                and Caste seats.<br><br><br>
-                                Main modules of the project:<br>
-                                • Student Registration<br>
-                                • Enroll Form for hostel admission<br>
-                                • Login Panel for the student<br>
-                                • Student Profile Section<br>
-                                • Allotment list for the class<br>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s10 m4 offset-s1">
-                    <div class="card ">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/attendance.PNG" style="height:250px">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator white-text text-darken-4">Attendance Management App<i
-                                    class="small material-icons right">info</i></span>
-                            <p><a href="https://github.com/SldinkarGECA">Github Link</a></p>
-                        </div>
-                        <div class="card-reveal center">
-                            <span class="card-title grey-text text-darken-4">Attendance Management App<i
-                                    class="material-icons right">close</i></span>
-                            <p>Attendance Management System is an application for taking daily attendance in schools and
-                                colleges. It provides minimal error in report generation of a particular student’s
-                                attendance. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s10 m4 offset-s1">
-                    <div class="card ">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/portfolio.png" style="height: 250px;">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator white-text text-darken-4">Personal Portfolio<i
-                                    class=" small material-icons right">info</i></span>
-                            <p><a href="https://github.com/SldinkarGECA">Github Link</a></p>
-                        </div>
-                        <div class="card-reveal center">
-                            <span class="card-title grey-text text-darken-4">Personal Portfolio<i
-                                    class="material-icons right">close</i></span>
-                            <p>Personal portfolio made using materialize CSS. This is simple website about my profile
-                                and
-                                projects.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s10 m4 offset-s1">
-                    <div class="card ">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/game.PNG" style="height: 250px;">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator white-text text-darken-4">Simple Dice game in JS<i
-                                    class=" small material-icons right">info</i></span>
-                            <p><a href="https://github.com/SldinkarGECA/Simple-game-in-JS">Github Link</a>
-                                <br>
-                                <a href="jsgame/index.html">Play Game!</a></p>
-                        </div>
-                        <div class="card-reveal center">
-                            <span class="card-title grey-text text-darken-4">Simple-game-in-JS<i
-                                    class="material-icons right">close</i></span>
-                            <p>Simple game in javascript for the two Dice rolling and the one who reaches score 100 or
-                                greater than 100 wins the game.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br><br><br><br>
-
-        <div class="footer" id="footer">
-            <footer class="page-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col l6 s6">
-                            <h5 class="white-text">Sandesh Dinkar</h5>
-                            <p class="grey-text text-lighten-4">An IT Engineer Student at GECA.</p>
-                        </div>
-                        <div class="col l4 offset-l2 s6">
-                            <h5 class="white-text">Contact Me</h5>
-                            <ul>
-                                <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/sandesh.5657"><i
-                                            class="fa  fa-facebook"></i>&nbsp;&nbsp;&nbsp;&nbsp;Facebook</a></li>
-                                <li><a class="grey-text text-lighten-3" href="#"><i
-                                            class="fa  fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;Twitter</a></li>
-                                <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/sldinkar_"><i
-                                            class="fa  fa-instagram"></i>&nbsp;&nbsp;&nbsp;&nbsp;Instagram</a></li>
-                                <li><a class="grey-text text-lighten-3" href="https://github.com/SldinkarGECA"><i
-                                            class="fa  fa-github"></i>&nbsp;&nbsp;&nbsp;&nbsp;Github</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-copyright">
-                    <div class="container center">
-                        © All rights reserved.
-                    </div>
-                </div>
-            </footer>
+        <div class="row">
+            <div id="adobe-dc-view" style="width: 800px;"></div>
+            <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+            <script type="text/javascript">
+                document.addEventListener("adobe_dc_view_sdk.ready", function () {
+                    var adobeDCView = new AdobeDC.View({
+                        clientId: "2173c7af9f064d1dac634fdd26201643",
+                        divId: "adobe-dc-view"
+                    });
+                    adobeDCView.previewFile({
+                        content: {location: {url: "https://drive.google.com/file/d/1YHwxYqSAfcyjgJ2_VWlROY7U8q2D-hZi/view?usp=sharing"}},
+                        metaData: {fileName: "PDF"}
+                    }, {
+                        embedMode: "IN_LINE",
+                        showDownloadPDF: false,
+                        showPrintPDF: false
+                    });
+                });
+            </script>
         </div>
     </div>
 
+    <div class="Skills center flow-text" id="skills">
+        <div class="section center">
+            <br/><br/>
+            <h3 class="header">My Skills:</h3>
 
+            <div class="carousel myskills" style="margin-bottom: 35px">
+                <a class="carousel-item" href="#HTML!">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel">
+                    <span class="white-text"
+                    >HTML<br/>-<br/><strong>60%</strong>
+                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#CSS!">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel">
+                    <span class="white-text"
+                    >CSS<br/>-<br/>
+                      <strong>40%</strong>
+                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#C!">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel">
+                    <span class="white-text"
+                    >C<br/>-<br/>
+                      <strong>50%</strong>
+                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#C++!">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel">
+                    <span class="white-text"
+                    >C++<br/>-<br/>
+                      <strong>40%</strong>
+                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#Python!">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel">
+                    <span class="white-text"
+                    >Python<br/>-<br/>
+                      <strong>30%</strong>
+                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#Java!">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel">
+                    <span class="white-text"
+                    >Java<br/>-<br/>
+                      <strong>20%</strong>
+                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#Bootstrap!">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel">
+                    <span class="white-text"
+                    >Bootstrap<br/>-<br/>
+                      <strong>20%</strong>
+                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br/><br/>
+        <div class="divider"></div>
+    </div>
 
+    <div class="projects center" id="projects">
+        <br/><br/>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <!-- materialize js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- personalize js  -->
-    <script src="js/index.js"></script>
+        <h3 class="header">My Projects:</h3>
+        <br/><br/>
+        <div class="row">
+            <div class="col s10 m4 offset-s1">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img
+                                class="activator"
+                                src="images/hostel.PNG"
+                                style="height: 250px"
+                        />
+                    </div>
+                    <div class="card-content">
+                <span class="card-title activator white-text text-darken-4"
+                >Hostel Allotement System<i class="small material-icons right"
+                >info</i
+                ></span
+                >
+                        <p><a href="https://github.com/SldinkarGECA">Github Link</a></p>
+                    </div>
+                    <div class="card-reveal center">
+                <span class="card-title grey-text text-darken-4"
+                >Hostel Allotement System<i class="material-icons right"
+                >close</i
+                ></span
+                >
+                        <p>
+                            Hostel Allotment System website in the ASP.Net using SQL
+                            database in Visual Studio 2019 where students can apply for
+                            hostel admission and enrollment will be done on the basis of
+                            the CGPA and Caste seats.<br/><br/><br/>
+                            Main modules of the project:<br/>
+                            • Student Registration<br/>
+                            • Enroll Form for hostel admission<br/>
+                            • Login Panel for the student<br/>
+                            • Student Profile Section<br/>
+                            • Allotment list for the class<br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s10 m4 offset-s1">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img
+                                class="activator"
+                                src="images/attendance.PNG"
+                                style="height: 250px"
+                        />
+                    </div>
+                    <div class="card-content">
+                <span class="card-title activator white-text text-darken-4"
+                >Attendance Management App<i
+                        class="small material-icons right"
+                >info</i
+                ></span
+                >
+                        <p><a href="https://github.com/SldinkarGECA">Github Link</a></p>
+                    </div>
+                    <div class="card-reveal center">
+                <span class="card-title grey-text text-darken-4"
+                >Attendance Management App<i class="material-icons right"
+                >close</i
+                ></span
+                >
+                        <p>
+                            Attendance Management System is an application for taking
+                            daily attendance in schools and colleges. It provides minimal
+                            error in report generation of a particular student’s
+                            attendance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s10 m4 offset-s1">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img
+                                class="activator"
+                                src="images/portfolio.png"
+                                style="height: 250px"
+                        />
+                    </div>
+                    <div class="card-content">
+                <span class="card-title activator white-text text-darken-4"
+                >Personal Portfolio<i class="small material-icons right"
+                >info</i
+                ></span
+                >
+                        <p><a href="https://github.com/SldinkarGECA">Github Link</a></p>
+                    </div>
+                    <div class="card-reveal center">
+                <span class="card-title grey-text text-darken-4"
+                >Personal Portfolio<i class="material-icons right"
+                >close</i
+                ></span
+                >
+                        <p>
+                            Personal portfolio made using materialize CSS. This is simple
+                            website about my profile and projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/><br/><br/><br/>
+
+    <div class="footer" id="footer">
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s6">
+                        <h5 class="white-text">Sandesh Dinkar</h5>
+                        <p class="grey-text text-lighten-4">
+                            An IT Engineer Student at GECA.
+                        </p>
+                    </div>
+                    <div class="col l4 offset-l2 s6">
+                        <h5 class="white-text">Contact Me</h5>
+                        <ul>
+                            <li>
+                                <a
+                                        class="grey-text text-lighten-3"
+                                        href="https://www.facebook.com/sandesh.5657"
+                                ><i class="fa fa-facebook"></i
+                                >&nbsp;&nbsp;&nbsp;&nbsp;Facebook</a
+                                >
+                            </li>
+                            <li>
+                                <a class="grey-text text-lighten-3" href="#!"
+                                ><i class="fa fa-twitter"></i
+                                >&nbsp;&nbsp;&nbsp;&nbsp;Twitter</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                        class="grey-text text-lighten-3"
+                                        href="https://www.instagram.com/sldinkar_"
+                                ><i class="fa fa-instagram"></i
+                                >&nbsp;&nbsp;&nbsp;&nbsp;Instagram</a
+                                >
+                            </li>
+                            <li>
+                                <a class="grey-text text-lighten-3"
+                                   href="https://github.com/SldinkarGECA">
+                                    <i class="fa fa-github"></i>&nbsp;&nbsp;&nbsp;&nbsp;Github
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container center">© All rights reserved.</div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<script
+        crossorigin="anonymous"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+></script>
+<!-- materialize js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- personalize js  -->
+<script src="js/index.js"></script>
 </body>
-
 </html>
