@@ -1,13 +1,46 @@
 .body {
-    /*background-image: url('images/bg.jpg');*/
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #eeeeee;
+    background-repeat: repeat;
     background-size: 100% 100%;
     font-family: 'Nunito', sans-serif;
 }
 
+#cover {
+    background: url(images/cover.svg) no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background: none;
+}
+
+.navbar_class {
+    background: none;
+}
+
+.nav-fixed {
+    background: none;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: Nunito, sans-serif;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #FFF222;
+}
+
 nav ul a {
-    color: #E8290B;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffffff;
     font-weight: 900;
 }
 
@@ -15,11 +48,14 @@ nav .brand-logo {
     color: #FFF222;
 }
 
-a {
-    color: #4834DF;
-    margin-left: 10px;
-    margin-right: 10px;
+.sidenav {
+    background: url("images/cover.svg");
 }
+
+.sidenav li > a {
+    color: #2B2B52;
+}
+
 
 h5 {
     font-size: 16px;
@@ -36,13 +72,11 @@ h3 {
 
 .about {
     background: none;
-    height: 650px;
 }
 
 .about .col .card {
     margin-top: 50px;
     background: none;
-    height: 650px;
     box-shadow: none;
 }
 
@@ -61,14 +95,6 @@ h3 {
     color: #01CBC6;
 }
 
-.sidenav {
-    background-color: #25CCF7;
-}
-
-.nav-wrapper {
-    background-color: #0A3D62;
-}
-
 
 i {
     color: #192A56;
@@ -81,10 +107,9 @@ i {
     background-color: #2475B0;
 }
 
-.sidenav li > a {
-    color: #2B2B52;
+.Skills{
+    background: none;
 }
-
 .projects .col .card {
     height: 370px;
 }
@@ -96,7 +121,9 @@ i {
 }
 
 .footer .page-footer {
-    background-color: #0A3D62;
+    background: url(images/cover.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* sticky footer css*/
