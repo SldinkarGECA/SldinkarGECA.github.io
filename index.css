@@ -25,7 +25,7 @@ nav {
 
 .nav-fixed {
     z-index: 500;
-    background: url("images/nav.svg");
+    background: url("images/cover.svg");
 }
 
 .nav-link {
@@ -128,20 +128,20 @@ i {
     border-radius: 50%;
 }
 
+.projects {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 .projects .col .card {
-    height: 370px;
+    background: url("images/project.svg");
+    background-size: cover;
+    height: 100%;
 }
 
-.projects .col .card .card-image {
-    margin: 10px;
-    height: 250px;
-    border-radius: 20px;
-}
 
 .footer .page-footer {
-    background: url(images/cover.svg);
-    background-repeat: no-repeat;
+    background: url(images/cover.svg) no-repeat;
     background-size: cover;
 }
 
