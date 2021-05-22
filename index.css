@@ -10,22 +10,22 @@
     background-size: cover;
     color: white;
     height: 100%;
+
 }
 
 nav {
-    z-index:1;
     position: fixed;
     top: 0;
-    background: none;
+
 }
 
 .navbar_class {
-    z-index:500;
+    z-index: 500;
     background: none;
 }
 
 .nav-fixed {
-    background: none;
+    background: url("images/nav.svg");
 }
 
 .nav-link {
@@ -93,25 +93,31 @@ h3 {
     border-radius: 50%;
 }
 
+.about_content {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF222;
+}
+
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
     color: #01CBC6;
 }
 
+.fixed-action-btn {
+    display: none;
+}
 
 i {
     color: #192A56;
 }
 
-
-.card-panel {
-    height: 200px;
-    width: 200px;
-    background-color: #2475B0;
+.skill {
+    margin: 20px;
+    background: url("images/skill.svg");
+    color: white;
+    border-radius: 50%;
 }
 
-.Skills {
-    background: none;
-}
 
 .projects .col .card {
     height: 370px;
@@ -159,9 +165,16 @@ i {
 
 @media only screen and (max-width: 768px) {
     .bg {
-        background-image: url('images/bgmob.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100vh;
+    }
+
+    .fixed-action-btn {
+        display: block;
+    }
+
+    .resume {
+        display: none;
     }
 }
