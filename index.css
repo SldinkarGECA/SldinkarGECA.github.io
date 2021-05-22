@@ -133,7 +133,7 @@ i {
     padding-right: 5%;
 }
 
-.projects .col .card {
+.backgrnd {
     background: url("images/skill.svg");
     background-size: cover;
     height: 100%;
