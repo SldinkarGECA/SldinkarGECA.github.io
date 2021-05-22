@@ -20,11 +20,11 @@ nav {
 }
 
 .navbar_class {
-    z-index: 500;
     background: none;
 }
 
 .nav-fixed {
+    z-index: 500;
     background: url("images/nav.svg");
 }
 
@@ -51,11 +51,16 @@ nav .brand-logo {
 }
 
 .sidenav {
-    background: url("images/cover.svg");
+    background: url(images/cover.svg) no-repeat;
+    background-size: cover;
+    height: 100%;
+
 }
 
 .sidenav li > a {
-    color: #2B2B52;
+    padding: 20%;
+    color: #ffffff;
+    font-weight: 900;
 }
 
 
@@ -111,9 +116,14 @@ i {
     color: #192A56;
 }
 
+.outer {
+    padding: 10px;
+}
+
 .skill {
-    margin: 20px;
+    margin-top: 5px;
     background: url("images/skill.svg");
+    background-size: cover;
     color: white;
     border-radius: 50%;
 }
