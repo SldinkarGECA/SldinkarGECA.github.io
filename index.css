@@ -13,12 +13,14 @@
 }
 
 nav {
+    z-index:1;
     position: fixed;
     top: 0;
     background: none;
 }
 
 .navbar_class {
+    z-index:500;
     background: none;
 }
 
