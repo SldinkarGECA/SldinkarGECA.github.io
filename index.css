@@ -139,6 +139,16 @@ i {
     height: 100%;
 }
 
+.card .card-content .card-title {
+    display: block;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+.card .card-title {
+    font-size: 20px;
+    font-weight: 300;
+}
 
 .footer .page-footer {
     background: url(images/cover.svg) no-repeat;
